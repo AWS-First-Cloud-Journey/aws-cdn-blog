@@ -20,8 +20,9 @@ aws cloudformation deploy \
 
 3. Delete CloudFormation stack
 
-
+```
 aws cloudformation delete-stack --stack-name resizing-images-cf
+```
 
 4. Delete S3 bucket: 
 
