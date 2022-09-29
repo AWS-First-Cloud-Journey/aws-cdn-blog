@@ -26,7 +26,9 @@ aws cloudformation delete-stack --stack-name resizing-images-cf
 
 4. Delete S3 bucket: 
 
+```
 aws s3 rb s3://<code-bucket>/ --force
+```
 
 **Test solution**
 
